@@ -15,7 +15,6 @@ import socket
 import json
 import requests
 import subprocess
-import mysql.connector
 from datetime import datetime
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
