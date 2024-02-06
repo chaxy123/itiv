@@ -12,9 +12,11 @@ import gzip
 import random
 import socket
 
+import m3u8
 import json
 import requests
 import subprocess
+import mysql.connector
 from datetime import datetime
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
