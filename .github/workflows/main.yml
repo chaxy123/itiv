@@ -33,10 +33,10 @@ jobs:
           sudo ln -sf /usr/local/bin/chrome-headless-shell-linux64/chrome-headless-shell /usr/local/bin/chromedriver
           sudo chmod +x /usr/local/bin/chromedriver
 
-      - name: Run itv
+      - name: Run spider-iptv
         run: python ${{ github.workspace }}/spider-iptv.py
 
-      - name: Run itvtest
+      - name: Run tools
         run: python ${{ github.workspace }}/tools.py
         
       - name: Upload a Build Artifact
