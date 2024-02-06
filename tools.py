@@ -12,7 +12,6 @@ import gzip
 import random
 import socket
 
-import m3u8
 import json
 import requests
 import subprocess
